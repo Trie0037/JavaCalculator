@@ -17,7 +17,7 @@ public class Calculator {
 		firstNum = scanner.nextInt();
 		System.out.print("Enter the second number ");
 		secondNum = scanner.nextInt();
-		System.out.print("Select operator: 1(+), 2(-), 3(*), 4(/), 5(%)");
+		System.out.print("Select operator: 1(+), 2(-), 3(*), 4(/), 5(%) ");
 		operator = scanner.nextInt();
 
 		int solution = calculate(firstNum, secondNum, operator);
